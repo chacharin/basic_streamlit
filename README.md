@@ -2,13 +2,15 @@
 
 #สร้าง Environment
 
-python -m venv venv
+(Windows) python -m venv venv
+
+(MacOS)python3 -m venv venv
 
 #เข้าถึง Environment
 
-.\venv\Scripts\activate (Windows)
+(Windows) .\venv\Scripts\activate 
 
-source venv/bin/activate (MacOS)
+(MacOS) source venv/bin/activate 
 
 #ติดตั้ง Library ตามรายการที่ระบุไว้ในไฟล์ txt
 
